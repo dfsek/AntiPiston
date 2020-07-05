@@ -1,0 +1,6 @@
+enable-master-list: true
+master-list-whitelist: false
+master-list:
+  - SUGAR_CANE
+  - BAMBOO
+debug: false

@@ -1,0 +1,13 @@
+name: AntiPiston
+main: com.dfsek.antipiston.Main
+version: 0.1.0
+author: dfsek
+api-version: 1.13
+softdepend:
+  - CoreProtect
+commands:
+  antipiston:
+    aliases: [ap, piston]
+    usage: "/ap <reload>"
+    permission: antipiston.command
+    permission-message: "You do not have permission to use this command!"
